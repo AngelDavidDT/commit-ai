@@ -1,0 +1,18 @@
+# Secretos y configuración local (NUNCA subir)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
